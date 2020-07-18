@@ -1,19 +1,45 @@
-<!--
-**pamellabiotec/pamellabiotec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class ReadMe:
+    def __init__(self, username="pamellabiotec", year=2020):
+        self.username = username
+        self.name = 'Pâmella Araújo Balcaçar'
+        self.education = {
+            'Tecnologia em Informática': ['Faculdades Integradas de Tangará da Serra'],
+            'Ciências Biológicas': ['Universidade Federal de Mato Grosso'],
+            'MBA em Perícia, Auditoria e Análise Ambiental': ['Universidade Cândido Mendes']
+            'Especialização em Biotecnologia e Bioprocessos': ['Universidade Estadual de Maringá']            
+        }
+        self.employment = {
+            'developer': ['company', 'city'],
+            'consultora': ['Rondonópolis'],
+            'Professora': ['Secretaria de Educação do Estado de Mato Grosso'],            
+        }
 
-### Hi! I'm Pâmella.
+    def doing(self, now=2020):
+        today = self.year
 
-Here are some ideas to get you started:
+        if now = today:
+            dream = self.education['Bioinformática']
+            return """
+            I am currently learning {code} at {code_institute}.
+            """.format(code=dream[0], code_institute=dream[1])
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        elif now > today:
+            goal = self.employment['developer']
+            return """
+            I am eager to collaborate with {teams} on {projects}.
+            """.format(teams=goal[0], projects='software development')
+        else:
+            return """
+            ### Hi there 👋
+            """
+        
+    def collaborate(self, role, organization, location):
+        opportunity = self.employment
+        opportunity[role] = [organization, location]
+
+me = ReadMe(2020)
+```
 
 [![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/lhnuwm0kcboyjgi7gytg.png)](https://www.linkedin.com/in/pamellabiotec/)
 [![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/r4s2aiy4v39jywj6zh8c.png)](https://dev.to/pamellabiotec)
