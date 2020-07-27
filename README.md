@@ -10,7 +10,7 @@ class ReadMe:
             'Especialização em Biotecnologia e Bioprocessos': ['Universidade Estadual de Maringá']            
         }
         self.employment = {
-            'developer': ['company', 'city'],
+            'dev': ['company', 'city'],
             'consultora': ['Rondonópolis'],
             'Professora': ['Secretaria de Educação do Estado de Mato Grosso'],            
         }
@@ -19,19 +19,19 @@ class ReadMe:
         today = self.year
 
         if now = today:
-            dream = self.education['Bioinformática']
+            sonho = self.education['Bioinformática']
             return """
-            I am currently learning {code} at {code_institute}.
-            """.format(code=dream[0], code_institute=dream[1])
+            Atualmente estou aprendendo {codigo} at {code_institute}.
+            """.format(codigo=sonho[0], code_institute=dream[1])
 
         elif now > today:
-            goal = self.employment['developer']
+            meta = self.employment['developer']
             return """
-            I am eager to collaborate with {teams} on {projects}.
-            """.format(teams=goal[0], projects='software development')
+            Eu gostaria de colaborar com {equipe} on {projetos}.
+            """.format(equipe=meta[0], projetos='desenvolvimento de software')
         else:
             return """
-            ### Hi there 👋
+            ### Eu aqui 👋
             """
         
     def collaborate(self, role, organization, location):
