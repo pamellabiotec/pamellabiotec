@@ -21,8 +21,8 @@ class ReadMe:
         if now = today:
             sonho = self.education['Bioinformática']
             return """
-            Atualmente estou aprendendo {codigo} at {code_institute}.
-            """.format(codigo=sonho[0], code_institute=dream[1])
+            Atualmente estou aprendendo {codigo} at {intituicao_de_ensino}.
+            """.format(codigo=sonho[0], intituicao_de_ensino=sonho[1])
 
         elif now > today:
             meta = self.employment['developer']
