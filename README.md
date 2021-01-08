@@ -1,6 +1,6 @@
 ```python
 class ReadMe:
-    def __init__(self, username="pamellabiotec", year=2021):
+    def __init__(self, usuario="pamellabiotec", ano=2021):
         self.usuario = pamellbiotec
         self.nome = 'Pâmella Araújo Balcaçar'
         self.escolaridade = {
