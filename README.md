@@ -1,44 +1,44 @@
 ```python
 class ReadMe:
-    def __init__(self, username="pamellabiotec", year=2020):
-        self.username = username
-        self.name = 'Pâmella Araújo Balcaçar'
-        self.education = {
-            'Tecnologia em Informática': ['Faculdades Integradas de Tangará da Serra'],
-            'Ciências Biológicas': ['Universidade Federal de Mato Grosso'],
-            'MBA em Perícia, Auditoria e Análise Ambiental': ['Universidade Cândido Mendes']
-            'Especialização em Biotecnologia e Bioprocessos': ['Universidade Estadual de Maringá']            
+    def __init__(self, username="pamellabiotec", year=2021):
+        self.usuario = pamellbiotec
+        self.nome = 'Pâmella Araújo Balcaçar'
+        self.escolaridade = {
+            'Tecnologia em Informática': ['Faculdades Integradas de Tangará da Serra', 'Tangará da Serra', 'MT'],
+            'Ciências Biológicas': ['Universidade Federal de Mato Grosso', 'Rondonópolis', 'MT'],
+            'MBA em Perícia, Auditoria e Análise Ambiental': ['Universidade Cândido Mendes', 'Rio de Janeiro', 'RJ']
+            'Especialização em Biotecnologia e Bioprocessos': ['Universidade Estadual de Maringá', 'Maringá', 'PR']            
         }
-        self.employment = {
-            'dev': ['company', 'city'],
-            'consultora': ['Rondonópolis'],
-            'Professora': ['Secretaria de Educação do Estado de Mato Grosso'],            
+        self.experiencia = {
+            'dev': ['Rondonópolis', 'MT'],
+            'consultora': ['Rondonópolis','MT'],
+            'Professora': ['Secretaria de Educação do Estado de Mato Grosso', 'Rondonópolis', 'MT'],            
         }
 
-    def doing(self, now=2020):
-        today = self.year
+    def fazendo(self, agora=2021):
+        hoje = self.ano
 
-        if now = today:
-            sonho = self.education['Bioinformática']
+        if agora = hoje:
+            sonho = self.escolaridade['Bioinformática']
             return """
             Atualmente estou aprendendo {codigo} at {intituicao_de_ensino}.
             """.format(codigo=sonho[0], intituicao_de_ensino=sonho[1])
 
-        elif now > today:
-            meta = self.employment['developer']
+        elif agora > hoje:
+            meta = self.experiencia['dev']
             return """
-            Eu gostaria de colaborar com {equipe} on {projetos}.
+            Eu gostaria de colaborar com {equipe} em {projetos}.
             """.format(equipe=meta[0], projetos='desenvolvimento de software')
         else:
             return """
             ### Eu aqui 👋
             """
         
-    def collaborate(self, role, organization, location):
-        opportunity = self.employment
-        opportunity[role] = [organization, location]
+    def colaboracao(self, funcao, organziacao, localizacao):
+        oportunidade = self.experiencia
+        oportunidade[funcao] = [organizacao, localizacao]
 
-me = ReadMe(2020)
+me = ReadMe(2021)
 ```
 
 [![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/lhnuwm0kcboyjgi7gytg.png)](https://www.linkedin.com/in/pamellabiotec/)
