@@ -3,6 +3,7 @@ class ReadMe:
     def __init__(self, usuario="pamellabiotec", ano=2022):
         self.usuario = pamellbiotec
         self.nome = 'Pâmella Araújo Balcaçar'
+        self.pronome = 'Ela, dela, she, ella'
         self.escolaridade = {
             'Tecnologia em Informática': ['Faculdades Integradas de Tangará da Serra', 'Tangará da Serra', 'MT'],
             'Ciências Biológicas': ['Universidade Federal de Mato Grosso', 'Rondonópolis', 'MT'],
@@ -38,15 +39,15 @@ class ReadMe:
             'Investigando na linha de pesquisa' {tele_educacao_em_saude} 'referente' {estado_de_mato_grosso}.
             """.format(projeto=em_construcao[0])
 
-
         else:
             return """
             ### Eu aqui 👋
             """
         
-    def colaboracao(self, funcao, organziacao, localizacao):
-        oportunidade = self.experiencia
-        oportunidade[funcao] = [organizacao, localizacao]
+    def voluntario(self, telessaude_mt, site):
+        pyladies = self.experiencia
+        pythonbrasil = self.escolaridade
+        telessaude_mt = self.escolaridade['Mestrado Profissional em Telemedicina e Telessaúde'], site['http://www.telessaude.mt.gov.br/']
 
 me = ReadMe(2022)
 ```
