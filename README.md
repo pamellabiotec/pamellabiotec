@@ -1,34 +1,44 @@
 ```python
 class ReadMe:
-    def __init__(self, usuario="pamellabiotec", ano=2021):
+    def __init__(self, usuario="pamellabiotec", ano=2022):
         self.usuario = pamellbiotec
         self.nome = 'Pâmella Araújo Balcaçar'
         self.escolaridade = {
             'Tecnologia em Informática': ['Faculdades Integradas de Tangará da Serra', 'Tangará da Serra', 'MT'],
             'Ciências Biológicas': ['Universidade Federal de Mato Grosso', 'Rondonópolis', 'MT'],
             'MBA em Perícia, Auditoria e Análise Ambiental': ['Universidade Cândido Mendes', 'Rio de Janeiro', 'RJ']
-            'Especialização em Biotecnologia e Bioprocessos': ['Universidade Estadual de Maringá', 'Maringá', 'PR']            
+            'Especialização em Biotecnologia e Bioprocessos': ['Universidade Estadual de Maringá', 'Maringá', 'PR']
+            'Especialização em Educação Digital': ['Universidade do Estado da Bahia', 'Salvador', 'BA']
+            'Mestrado Profissional em Telemedicina e Telessaúde': ['Universidade do Estado do Rio de Janeiro', 'Rio de Janeiro', 'RJ']            
         }
         self.experiencia = {
-            'dev': ['Rondonópolis', 'MT'],
+            'Professora': ['Secretaria de Educação do Estado de Mato Grosso': [ 'Escola Estadual Antonio Guimarães Balbino', 'Rondonópolis', 'MT']],            
             'consultora': ['Rondonópolis','MT'],
-            'Professora': ['Secretaria de Educação do Estado de Mato Grosso', 'Rondonópolis', 'MT'],            
+            'dev': ['Rondonópolis', 'MT'],            
         }
 
-    def fazendo(self, agora=2021):
+    def projetos(self, agora=2022):
         hoje = self.ano
 
         if agora = hoje:
-            sonho = self.escolaridade['Bioinformática']
+            elas_na_stem = self.experiencia['Professora']
             return """
-            Atualmente estou aprendendo {codigo} at {intituicao_de_ensino}.
-            """.format(codigo=sonho[0], intituicao_de_ensino=sonho[1])
+            'Realizando na disciplina' {biologia} 'na' {escola_estadual_a_g_balbino}.
+            """.format(projeto=elas_na_stem[0], escola_estadual_a_g_balbino=elas_na_stem[1], site='https//pamellabiotec.github.io/')
 
-        elif agora > hoje:
-            meta = self.experiencia['dev']
+        elif agora > ontem:
+            escrevivencia = self.experiencia['Professora']
             return """
-            Eu gostaria de colaborar com {equipe} em {projetos}.
-            """.format(equipe=meta[0], projetos='desenvolvimento de software')
+            'Desenvolvo' {experiencia} 'e' {projetos}.
+            """.format(projeto=escrevivencia[0], descricao='relato da prática docente', site='https//pamellabiotec.github.io/')
+
+        elif agora < futuro:
+            pesquisa = self.escolaridade['Mestrado Profissional em Telemedicina e Telessaúde']
+            return """
+            'Investigando na linha de pesquisa' {tele_educacao_em_saude} 'referente' {estado_de_mato_grosso}.
+            """.format(projeto=em_construcao[0])
+
+
         else:
             return """
             ### Eu aqui 👋
@@ -38,7 +48,7 @@ class ReadMe:
         oportunidade = self.experiencia
         oportunidade[funcao] = [organizacao, localizacao]
 
-me = ReadMe(2021)
+me = ReadMe(2022)
 ```
 
 [![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/lhnuwm0kcboyjgi7gytg.png)](https://www.linkedin.com/in/pamellabiotec/)
