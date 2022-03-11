@@ -25,13 +25,13 @@ class ReadMe:
             elas_na_stem = self.experiencia['Professora']
             return """
             'Realizando na disciplina' {biologia} 'na' {escola_estadual_a_g_balbino}.
-            """.format(projeto=elas_na_stem[0], escola_estadual_a_g_balbino=elas_na_stem[1], site='https//pamellabiotec.github.io/')
+            """.format(projeto=elas_na_stem[0], escola_estadual_a_g_balbino=elas_na_stem[1], site='https//pamella.bio.br/')
 
         elif agora > ontem:
             escrevivencia = self.experiencia['Professora']
             return """
             'Desenvolvo' {experiencia} 'e' {projetos}.
-            """.format(projeto=escrevivencia[0], descricao='relato da prática docente', site='https//pamellabiotec.github.io/')
+            """.format(projeto=escrevivencia[0], descricao='relato da prática docente', site='https//pamella.bio.br/')
 
         elif agora < futuro:
             pesquisa = self.escolaridade['Mestrado Profissional em Telemedicina e Telessaúde']
