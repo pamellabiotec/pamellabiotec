@@ -60,4 +60,4 @@ me = ReadMe(2022)
 ![Mell Status](https://github-readme-stats.vercel.app/api?username=pamellabiotec&show_icons=true&theme=dark) | [![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=pamellabiotec&layout=compact)](https://github.com/anuraghazra/github-readme-stats)|
 --|--|
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pamellabiotec&repo=github-readme-stats)](https://github.com/pamellabiotec/Tutorial_Desvendando_o_codigo_genetico_com_biopython)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pamellabiotec&repo=github-readme-stats)](https://github.com/pamellabiotec/Tutorial_Desvendando_o_codigo_genetico_com_biopython.git)
