@@ -24,7 +24,7 @@ class ReadMe:
         if agora = hoje:
             elas_na_stem = self.experiencia['Professora']
             return """
-            'Realizando na disciplina' {biologia} 'na' {escola_estadual_a_g_balbino}.
+            'Realizando na disciplina' {biologia} 'na' {EEAGB}.
             """.format(projeto=elas_na_stem[0], escola_estadual_a_g_balbino=elas_na_stem[1], site='https//pamella.bio.br/')
 
         elif agora > ontem:
@@ -56,6 +56,5 @@ me = ReadMe(2022)
 [![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/r4s2aiy4v39jywj6zh8c.png)](https://dev.to/pamellabiotec)
 [![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uxulcfk3nur9d1ybs9w9.png)](https://twitter.com/pamellabiotec)
 
-![Mell Status](https://github-readme-stats.vercel.app/api?username=pamellabiotec&show_icons=true)
-
-[![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=pamellabiotec&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+![Mell Status](https://github-readme-stats.vercel.app/api?username=pamellabiotec&show_icons=true) | [![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=pamellabiotec&layout=compact)](https://github.com/anuraghazra/github-readme-stats)|
+--|--|
