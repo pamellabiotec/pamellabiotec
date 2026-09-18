@@ -7,7 +7,7 @@ Atuo na interseção entre **Biologia, Biotecnologia, Computação e Educação*
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pamellabiotec/)
 [![DEV Community](https://img.shields.io/badge/DEV%20Community-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/pamellabiotec)
 [![Lattes](https://img.shields.io/badge/Currículo%20Lattes-005CA9?style=for-the-badge&logo=academia&logoColor=white)](http://lattes.cnpq.br/1206643836491711)
-[![Website](https://img.shields.io/badge/Website-pamella.bio.br-6B4FBB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pamella.bio.br/)
+<!-- [![Website](https://img.shields.io/badge/Website-pamella.bio.br-6B4FBB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pamella.bio.br/) -->
 
 ## 🧬 Sobre mim
 
