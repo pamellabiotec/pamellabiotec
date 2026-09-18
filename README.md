@@ -54,11 +54,13 @@ No [DEV Community](https://dev.to/pamellabiotec), compartilho tutoriais e experi
 
 Aqui no GitHub, você encontrará estudos, experimentos e projetos relacionados a **bioinformática, ciência de dados, desenvolvimento web, educação e comunidades de tecnologia**.
 
-## 📊 GitHub
+## 📊 Projetos 
+![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pamellabiotec&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub de Pâmella" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pamellabiotec&layout=compact&langs_count=8&theme=dark" alt="Linguagens mais utilizadas por Pâmella" />
+  
+[![Bio Tech EduDesign](https://avatars.githubusercontent.com/u/296529980?s=200&v=4)](https://github.com/Bio-Tech-Edu?view_as=public)  [![Projeto Telessaúde na escola](https://avatars.githubusercontent.com/u/120108418?s=200&v=4)](https://github.com/telessaudenaescola) [![DaD](https://avatars.githubusercontent.com/u/43186909?s=200&v=4)](https://github.com/descomplicandoadocencia)
+
 </div>
 
 ## 🤝 Vamos conversar?
